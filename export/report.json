@@ -1,0 +1,407 @@
+{
+  "failedImages": [],
+  "items": [
+    {
+      "url": "/",
+      "file": "content/pages/the-chillin-bear-home-page.md",
+      "stats": {},
+      "words": 212,
+      "warnings": []
+    },
+    {
+      "url": "/buila-vanturarita/",
+      "file": "content/posts/buila-vanturarita.md",
+      "stats": {
+        "difficulty": "Greu",
+        "duration": "7-9 ore",
+        "altitude": "1866 metri, Vârful Vioreanu"
+      },
+      "words": 1121,
+      "warnings": []
+    },
+    {
+      "url": "/cabana-negoiu/",
+      "file": "content/posts/cabana-negoiu.md",
+      "stats": {
+        "difficulty": "Usor",
+        "duration": "2-3 ore",
+        "altitude": "1540 metri, Cabana Negoiu"
+      },
+      "words": 595,
+      "warnings": []
+    },
+    {
+      "url": "/cabana-suru-din-muntii-fagaras/",
+      "file": "content/posts/cabana-suru-din-muntii-fagaras.md",
+      "stats": {
+        "difficulty": "Ușor/ Mediu",
+        "duration": "3-4 ore",
+        "altitude": "1450 metri, Cabana Suru"
+      },
+      "words": 930,
+      "warnings": []
+    },
+    {
+      "url": "/cabane/",
+      "file": "content/pages/cabane.md",
+      "stats": {},
+      "words": 223,
+      "warnings": []
+    },
+    {
+      "url": "/contact-form-7/",
+      "file": "content/pages/contact-form-7.md",
+      "stats": {},
+      "words": 49,
+      "warnings": []
+    },
+    {
+      "url": "/experiente/",
+      "file": "content/pages/experiente.md",
+      "stats": {},
+      "words": 35,
+      "warnings": [
+        "text foarte scurt — verifică manual"
+      ]
+    },
+    {
+      "url": "/facts-counter/",
+      "file": "content/pages/facts-counter.md",
+      "stats": {},
+      "words": 71,
+      "warnings": []
+    },
+    {
+      "url": "/fotografii/",
+      "file": "content/pages/fotografii.md",
+      "stats": {},
+      "words": 3,
+      "warnings": [
+        "text foarte scurt — verifică manual"
+      ]
+    },
+    {
+      "url": "/galleries/",
+      "file": "content/pages/galleries.md",
+      "stats": {},
+      "words": 104,
+      "warnings": []
+    },
+    {
+      "url": "/ghidul-unei-drumetii-in-carpati/",
+      "file": "content/pages/ghidul-unei-drumetii-in-carpati.md",
+      "stats": {},
+      "words": 1803,
+      "warnings": []
+    },
+    {
+      "url": "/google-maps/",
+      "file": "content/pages/google-maps.md",
+      "stats": {},
+      "words": 14,
+      "warnings": []
+    },
+    {
+      "url": "/grid-structure/",
+      "file": "content/pages/grid-structure.md",
+      "stats": {},
+      "words": 617,
+      "warnings": []
+    },
+    {
+      "url": "/heading-titles/",
+      "file": "content/pages/heading-titles.md",
+      "stats": {},
+      "words": 168,
+      "warnings": []
+    },
+    {
+      "url": "/home-2/",
+      "file": "content/pages/home-2.md",
+      "stats": {},
+      "words": 245,
+      "warnings": []
+    },
+    {
+      "url": "/home-2/blog/",
+      "file": "content/pages/blog.md",
+      "stats": {},
+      "words": 551,
+      "warnings": []
+    },
+    {
+      "url": "/icon-boxes/",
+      "file": "content/pages/icon-boxes.md",
+      "stats": {},
+      "words": 610,
+      "warnings": []
+    },
+    {
+      "url": "/icon-titles/",
+      "file": "content/pages/icon-titles.md",
+      "stats": {},
+      "words": 153,
+      "warnings": []
+    },
+    {
+      "url": "/map/",
+      "file": "content/pages/map.md",
+      "stats": {},
+      "words": 14,
+      "warnings": [
+        "text foarte scurt — verifică manual"
+      ]
+    },
+    {
+      "url": "/modal-popup/",
+      "file": "content/pages/modal-popup.md",
+      "stats": {},
+      "words": 134,
+      "warnings": []
+    },
+    {
+      "url": "/padis/",
+      "file": "content/posts/padis.md",
+      "stats": {
+        "difficulty": "Ușor – Mediu",
+        "duration": "5 ore",
+        "altitude": "1250 metri, Lumea Pierdută"
+      },
+      "words": 1096,
+      "warnings": []
+    },
+    {
+      "url": "/page-titles/",
+      "file": "content/pages/page-titles.md",
+      "stats": {},
+      "words": 36,
+      "warnings": []
+    },
+    {
+      "url": "/pagin%C4%83-exemplu/",
+      "file": "content/pages/pagină-exemplu.md",
+      "stats": {},
+      "words": 166,
+      "warnings": [
+        "conținut luat din API, nu din pagină"
+      ]
+    },
+    {
+      "url": "/piatra-singuratica/",
+      "file": "content/posts/piatra-singuratica.md",
+      "stats": {
+        "difficulty": "Ușor – Mediu",
+        "duration": "5-7 ore",
+        "altitude": "1782 metri, Vârful Hășmașul Mare"
+      },
+      "words": 534,
+      "warnings": []
+    },
+    {
+      "url": "/pietrosul-calimani/",
+      "file": "content/posts/pietrosul-calimani.md",
+      "stats": {
+        "difficulty": "Mediu",
+        "duration": "5-6 ore",
+        "altitude": "2100 metri, Vârful Pietrosul"
+      },
+      "words": 1110,
+      "warnings": []
+    },
+    {
+      "url": "/pop-ivan/",
+      "file": "content/posts/pop-ivan.md",
+      "stats": {
+        "difficulty": "Mediu/dificil*",
+        "duration": "9-10 ore",
+        "altitude": "1937 metri, vârful Pop Ivan"
+      },
+      "words": 950,
+      "warnings": []
+    },
+    {
+      "url": "/pricing-tables/",
+      "file": "content/pages/pricing-tables.md",
+      "stats": {},
+      "words": 199,
+      "warnings": []
+    },
+    {
+      "url": "/single-header/",
+      "file": "content/pages/single-header.md",
+      "stats": {},
+      "words": 331,
+      "warnings": []
+    },
+    {
+      "url": "/skill-bars/",
+      "file": "content/pages/skill-bars.md",
+      "stats": {},
+      "words": 30,
+      "warnings": [
+        "text foarte scurt — verifică manual"
+      ]
+    },
+    {
+      "url": "/slider-header/",
+      "file": "content/pages/slider-header.md",
+      "stats": {},
+      "words": 75,
+      "warnings": []
+    },
+    {
+      "url": "/social-accounts/",
+      "file": "content/pages/social-accounts.md",
+      "stats": {},
+      "words": 31,
+      "warnings": []
+    },
+    {
+      "url": "/tabbed-content/",
+      "file": "content/pages/tabbed-content.md",
+      "stats": {},
+      "words": 571,
+      "warnings": []
+    },
+    {
+      "url": "/team-member/",
+      "file": "content/pages/team-member.md",
+      "stats": {},
+      "words": 45,
+      "warnings": []
+    },
+    {
+      "url": "/testimonials/",
+      "file": "content/pages/testimonials.md",
+      "stats": {},
+      "words": 73,
+      "warnings": []
+    },
+    {
+      "url": "/text-highlights/",
+      "file": "content/pages/text-highlights.md",
+      "stats": {},
+      "words": 184,
+      "warnings": []
+    },
+    {
+      "url": "/topul-cabanelor-din-romania/",
+      "file": "content/posts/topul-cabanelor-din-romania.md",
+      "stats": {},
+      "words": 3649,
+      "warnings": []
+    },
+    {
+      "url": "/trasee-1/",
+      "file": "content/pages/trasee-1.md",
+      "stats": {},
+      "words": 564,
+      "warnings": []
+    },
+    {
+      "url": "/trasee/",
+      "file": "content/pages/trasee.md",
+      "stats": {},
+      "words": 600,
+      "warnings": []
+    },
+    {
+      "url": "/traseu-gaura-gutanu/",
+      "file": "content/posts/traseu-gaura-gutanu.md",
+      "stats": {
+        "difficulty": "Mediu",
+        "duration": "5-6 ore",
+        "altitude": "1575 metri, Cascada Moara Dracului"
+      },
+      "words": 600,
+      "warnings": []
+    },
+    {
+      "url": "/traseul-spre-varful-giumalau/",
+      "file": "content/posts/traseul-spre-varful-giumalau.md",
+      "stats": {
+        "difficulty": "Ușor",
+        "duration": "4-5 ore",
+        "altitude": "1858 metri, Vârful Giumalău"
+      },
+      "words": 846,
+      "warnings": []
+    },
+    {
+      "url": "/varful-cindrel/",
+      "file": "content/posts/varful-cindrel.md",
+      "stats": {
+        "difficulty": "Mediu – Greu",
+        "duration": "5-7 ore",
+        "altitude": "2244 metri, Vârful Cindrel"
+      },
+      "words": 980,
+      "warnings": []
+    },
+    {
+      "url": "/varful-ciucas/",
+      "file": "content/posts/varful-ciucas.md",
+      "stats": {
+        "difficulty": "Mediu",
+        "duration": "5-6 ore",
+        "altitude": "1954 metri, Vârful Ciucaș"
+      },
+      "words": 601,
+      "warnings": []
+    },
+    {
+      "url": "/varful-custura/",
+      "file": "content/posts/varful-custura.md",
+      "stats": {
+        "difficulty": "Mediu",
+        "duration": "5-7 ore",
+        "altitude": "2457 metri, Vârful Custura"
+      },
+      "words": 823,
+      "warnings": []
+    },
+    {
+      "url": "/varful-lespezi-apuseni/",
+      "file": "content/posts/varful-lespezi-apuseni.md",
+      "stats": {
+        "difficulty": "Ușor",
+        "duration": "2-3 ore",
+        "altitude": "1222 metri, Vârful Lespezi"
+      },
+      "words": 965,
+      "warnings": []
+    },
+    {
+      "url": "/varful-moldoveanu-victoria/",
+      "file": "content/posts/varful-moldoveanu-victoria.md",
+      "stats": {
+        "difficulty": "Dificil",
+        "duration": "13 ore",
+        "altitude": "2544 metri, Vârful Moldoveanu"
+      },
+      "words": 1063,
+      "warnings": []
+    },
+    {
+      "url": "/varful-negoiu/",
+      "file": "content/posts/varful-negoiu.md",
+      "stats": {
+        "difficulty": "Mediu / Greu",
+        "duration": "6-8 ore",
+        "altitude": "2535 metri, Vârful Negoiu"
+      },
+      "words": 1496,
+      "warnings": []
+    },
+    {
+      "url": "/via-ferrata-cheile-cutilor/",
+      "file": "content/posts/via-ferrata-cheile-cutilor.md",
+      "stats": {
+        "difficulty": "Grad B/C",
+        "duration": "2 ore (1h de Via Ferrata)"
+      },
+      "words": 714,
+      "warnings": []
+    }
+  ]
+}
