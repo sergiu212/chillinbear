@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { posts: CollectionEntry<'posts'>[] }
+const { posts } = Astro.props;
+---
+<ul class="cards">
+  {posts.map((p) => (
+    <li>
+      <a href={p.data.url}>
+        {p.data.hero && <img src={p.data.hero} alt="" loading="lazy" width="600" height="400" />}
+        <span class="title">{p.data.title}</span>
+        {(p.data.difficulty || p.data.duration) && (
+          <span class="meta">{[p.data.difficulty, p.data.duration].filter(Boolean).join(' · ')}</span>
+        )}
+      </a>
+    </li>
+  ))}
+</ul>
+<style>
+  .cards { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+  a { display: flex; flex-direction: column; height: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); }
+  a:hover { border-color: var(--accent); }
+  img { aspect-ratio: 3 / 2; object-fit: cover; width: 100%; }
+  .title { font-weight: 650; padding: 14px 16px 4px; line-height: 1.35; }
+  .meta { padding: 0 16px 16px; color: var(--muted); font-size: 15px; }
+</style>

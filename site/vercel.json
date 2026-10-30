@@ -1,0 +1,11 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/feed/", "destination": "/rss.xml", "permanent": true },
+    { "source": "/trasee-1/", "destination": "/trasee/", "permanent": true },
+    { "source": "/home-2/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/(grid-structure|icon-boxes|icon-titles|heading-titles|page-titles|pricing-tables|skill-bars|team-member|testimonials|text-highlights|modal-popup|single-header|slider-header|social-accounts|tabbed-content|facts-counter|contact-form-7|google-maps|galleries)/", "destination": "/", "permanent": true },
+    { "source": "/pagin%C4%83-exemplu/", "destination": "/", "permanent": true }
+  ]
+}

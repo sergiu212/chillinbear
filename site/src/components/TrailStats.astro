@@ -1,0 +1,22 @@
+---
+interface Props { difficulty?: string; duration?: string; altitude?: string }
+const { difficulty, duration, altitude } = Astro.props;
+const items = [
+  ['Dificultate', difficulty],
+  ['Durată', duration],
+  ['Altitudine maximă', altitude],
+].filter(([, v]) => v);
+---
+{items.length > 0 && (
+  <dl class="stats">
+    {items.map(([label, value]) => (
+      <div><dt>{label}</dt><dd>{value}</dd></div>
+    ))}
+  </dl>
+)}
+<style>
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 28px 0; padding: 0; }
+  .stats div { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+  dt { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  dd { margin: 4px 0 0; font-weight: 600; line-height: 1.4; }
+</style>

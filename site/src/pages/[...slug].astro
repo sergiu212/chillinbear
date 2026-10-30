@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TrailStats from '../components/TrailStats.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.data.url.replace(/^\/|\/$/g, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+const fmt = (date: Date) => date.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.title,
+  description: d.description,
+  image: d.hero ? new URL(d.hero, Astro.site).href : undefined,
+  datePublished: d.date.toISOString(),
+  dateModified: (d.updated ?? d.date).toISOString(),
+  inLanguage: 'ro',
+  author: { '@type': 'Person', name: 'TheChillinBear', url: Astro.site?.href },
+  mainEntityOfPage: new URL(d.url, Astro.site).href,
+};
+---
+<BaseLayout title={d.seoTitle ?? d.title} description={d.description} image={d.hero} type="article" jsonLd={jsonLd}>
+  <article>
+    <header class="hero">
+      {d.hero && <img src={d.hero} alt="" fetchpriority="high" width="1500" height="1000" />}
+      <div class="wrap">
+        <h1>{d.title}</h1>
+        <p class="dates">
+          Publicat pe <time datetime={d.date.toISOString()}>{fmt(d.date)}</time>
+          {d.updated && d.updated > d.date && (
+            <> · actualizat pe <time datetime={d.updated.toISOString()}>{fmt(d.updated)}</time></>
+          )}
+        </p>
+      </div>
+    </header>
+    <div class="wrap">
+      <TrailStats difficulty={d.difficulty} duration={d.duration} altitude={d.altitude} />
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .hero img { display: block; width: 100%; max-height: 62vh; object-fit: cover; }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; margin: 32px 0 8px; }
+  .dates { color: var(--muted); font-size: 15px; margin: 0; }
+</style>

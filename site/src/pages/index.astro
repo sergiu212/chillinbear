@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TrailList from '../components/TrailList.astro';
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+<BaseLayout title="The Chillin' Bear — Trasee montane în Carpați" description="Trasee montane, cabane și ghiduri de drumeție în Munții Carpați, descrise pas cu pas.">
+  <section class="wide intro">
+    <h1>Descoperă Munții Carpați</h1>
+    <p>Trasee montane, cabane și ghiduri de drumeție, descrise pas cu pas.</p>
+  </section>
+  <section class="wide">
+    <TrailList posts={posts} />
+  </section>
+</BaseLayout>
+<style>
+  .intro { padding-block: 48px 8px; }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 8px; line-height: 1.15; }
+  .intro p { color: var(--muted); margin: 0; }
+</style>
